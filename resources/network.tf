@@ -1,5 +1,5 @@
 module "ipv6" {
-  source = "../modules/network/ipv6"
+  source = "../modules/network"
 
   vpc_name = "ipv6-vpc"
   vpc_cidr = "10.1.0.0/16"
